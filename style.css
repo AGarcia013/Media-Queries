@@ -49,7 +49,8 @@
     width: 25rem;
     height: 17.5rem;
 }
-.pic{
+
+.pic {
     width: 25rem;
     height: 17.5rem;
 }
@@ -62,7 +63,10 @@
 
 .description-title {
     font-weight: bolder;
+
 }
+
+
 
 @media (max-width: 768px) {
     .container {
@@ -75,9 +79,13 @@
 
     .card {
         width: 18rem;
-        height: 28rem;
+        height: auto;
         padding-bottom: 5rem;
-        margin: 1rem ;
+        margin: 1rem;
+    }
+
+    .description-body{
+        font-size: 14px;
     }
 
     .cat-pic {
@@ -85,7 +93,7 @@
         height: 19rem;
     }
 
-    .pic{
+    .pic {
         width: 18rem;
         height: 19rem;
     }
@@ -103,9 +111,13 @@
 @media (max-width: 375px) {
     .card {
         width: 17rem;
-        height: 27rem;
+        height: auto;
         padding-bottom: 5rem;
         margin: 1rem;
+    }
+
+    .description-body{
+        font-size: 12px;
     }
 
     .cat-pic {
@@ -113,7 +125,7 @@
         height: 18rem;
     }
 
-    .pic{
+    .pic {
         width: 17rem;
         height: 18rem;
     }
