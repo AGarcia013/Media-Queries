@@ -49,6 +49,10 @@
     width: 25rem;
     height: 17.5rem;
 }
+.pic{
+    width: 25rem;
+    height: 17.5rem;
+}
 
 .card-content {
     flex-grow: 1;
@@ -78,7 +82,12 @@
 
     .cat-pic {
         width: 18rem;
-        height: 20rem;
+        height: 19rem;
+    }
+
+    .pic{
+        width: 18rem;
+        height: 19rem;
     }
 
     .name::after {
@@ -101,6 +110,11 @@
 
     .cat-pic {
         width: 17rem;
-        height: 19rem;
+        height: 18rem;
+    }
+
+    .pic{
+        width: 17rem;
+        height: 18rem;
     }
 }
